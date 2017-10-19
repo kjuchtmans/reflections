@@ -11,4 +11,9 @@ Difference from working dir: it is tracked by Git
 Difference form repo: it containes changes not yet committed
 Value: evaluate which changes justify which (or many) commits
 
+3. HOW CAN YOU USE THE STAGING AREA TO ENSURE ONE COMMIT PER LOGICAL CHANGE?
+When comparing differences between staging area and commit (using "git diff --staged"), 
+one can evaluate is one or more logical changes occured.
+
+
 Cheers!
