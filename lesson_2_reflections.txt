@@ -15,5 +15,10 @@ Value: evaluate which changes justify which (or many) commits
 When comparing differences between staging area and commit (using "git diff --staged"), 
 one can evaluate is one or more logical changes occured.
 
+4. WHAT ARE SOME SITUATIONS WHEN BRANCHES WOULD BE HELPFUL IN KEEPING YOUR HISTORY
+ORGANIZED?
+4.1. reflect strategical decisions in code development
+4.2. create regional versions (languages)
+
 
 Cheers!
