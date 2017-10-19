@@ -4,4 +4,11 @@ WHY DO YOU NEED TO DO IT?
 Git adds a .git directory and adds meta data to the working directory. You need the meta data 
 to start tracking file changes
 
+2. HOW IS THE STAGING AREA DIFFERENT FROM THE WORKING DIR AND THE REPO?
+WHAT VALUE DOES IT OFFER
 
+Difference from working dir: it is tracked by Git
+Difference form repo: it containes changes not yet committed
+Value: evaluate which changes justify which (or many) commits
+
+Cheers!

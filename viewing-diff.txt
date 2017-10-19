@@ -1,0 +1,49 @@
+#######   REFLECTIONS FILE   #######
+	-------------------
+
+1. HOW DOES THE DIFF COMMAND HELP CORRECT BUGS?
+
+Viewing a diff between two versions helps me spot bugs thanks to the plus "+" and minus "-" signs, 
+indicating changes.
+
+Working from the command line with a simple "diff" command, is fast, easy and straightforward.
+Even though the output's readibility could be improved (e.g. -u flag)
+
+2. HOW COULD HAVING EASY ACCESS TO THE ENTIRE HISTORY OF A FILE MAKE YOU A 
+MORE EFFICIENT PROGRAMMER IN THE LONG RUN?
+
+Beause you have got a quick way to retreive overwritten information, roll back changes, return 
+several steps and choose an alternative programming route from a given point in time, etcx
+
+3. WHAT ARE THE PROS AND CONS OF MANUALLY CHOOSING WHEN TO COMMIT, VS HAVING VERSIONS AUTOMATICALLY
+SAVED?
+
+- Pros: more control, programmer determines logically meaningful unit, adding a meaningful
+description is easier
+
+- Cons: requires discipline, risk of too big an interval between commits (in time, in logic),
+prone to user error
+
+4. WHY DOES GIT ALLOW FOR SAVING MULTIPLE FILES IN ONE COMMIT?
+Because when programming, code in multiple files will be affected (e.g. html, css, js)
+When files are not (programmatically) linked, other vcs like Google Docs treat each
+file separately
+
+5. HOW CAN ONE USE THE COMMANDS "GIT LOG" AND "GIT DIFF" TO VIEW THE HISTORY OF FILES?
+- git log: lists all commits with timestamps, authors and brief description. This serves
+as an overview so you can determine which change (commit) you want to look into
+
+- git diff <file1> <file2> : lists all differences between files, where minus signs '-' indicate
+text removed from file1, and plus sign '+' text added in file2.
+
+6. HOW MIGHT VERIONS CONTROL MAKE YOU MORE CONFIDENT TO MAKE CHANGES THAT COULD BREAK SOMETHING?
+Git allows one to always return to a point on the coding timeline before the breaking change happened.
+Provided that commits contain a single meaningful step in logic, it is easier to detect a bug, and
+correct or branch from there.
+
+All older information, and all newer non-master information is preserved.
+
+6. WHAT DO YOU WANT TO TRY USING GIT FOR?
+For the edX course on internet security, and the Beersafe project
+
+Cheers
