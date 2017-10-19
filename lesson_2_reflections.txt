@@ -1,0 +1,7 @@
+1. WHAT HAPPENS WHEN YOU INITIALIZE A REPOSITORY?
+WHY DO YOU NEED TO DO IT?
+
+Git adds a .git directory and adds meta data to the working directory. You need the meta data 
+to start tracking file changes
+
+
