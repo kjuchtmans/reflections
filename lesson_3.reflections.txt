@@ -1,0 +1,24 @@
+1. HOW DO THE DIAGRAMS HELP YOU VISUALIZE THE BRANCH STRUCTURE?
+
+Diagrams show all commits belonging to each of the individual branches, and show their common
+node point. They also show any commits not included in a branch, hence unreachable
+
+2. WHAT IS THE RESULT OF MERGING TWO BRANCHES TOGETHER? WHY DO WE REPRESENT IT IN THE DIAGRAM
+THE WAY WE DO?
+
+As a result of merging, all of the commits inside the merged branch will be inserted chronologically
+into the merging-into-branch. All of the commits of this last one will be kept.
+The new branch label will be set to the label of the merging-into-branch.
+
+Git command:
+1. (explicit) git merge branch1 branch2: branch2 will be merged into branch1
+2. (implicit) git merge branch2: when branch1 is checked-out, branch1 will always be included
+into the merge operation
+
+3. WHAT ARE THE PROS AND CONS OF GIT AUTOMATIC MERGING VS ALWAYS MERGING MANUALLY?
+automatic merging is faster
+manual merging looks at logical content of changes to make judgements about 
+changes to be kept as final version
+
+
+Cheers!
