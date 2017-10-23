@@ -1,0 +1,27 @@
+1. WHEN MIGHT YOU WANT TO ALWAYS PULL CHANGES MANUALLY RATHER THAN HAVING GIT 
+AUTOMATICALLY STAY UP-TO-DATE WITH YOUR REMOTE REPOSITORY?
+
+when you do not need data from other people's work on the remote to do 
+your programming locally.
+by pulling changes manually you can commit your work locally first and push
+your changes when ready.
+
+2. DESCRIBE THE DIFFERENCES BETWEEN FORKS, CLONES AND BRANCHES
+WHEN WOULD YOU USE ONE INSTEAD OF ANOTHER
+
+Fork: 
+- differs from clone in that fork is a GitHub-only action. 
+- differs from branch in that fork encompasses entire repository
+- Usage: 
+start from someone else's work to customize and make your personal project.
+
+Clone:
+- differs from fork in that it can apply to local repositories, or
+remote and local repositories outside of GitHub
+- differs from branch in tat it encompasses entire repository
+- Usage: like Fork, but available outside of GitHub also.
+
+Branch:
+- differs from fork and clone in that it includes only a subset of all commits, related
+to one specific part of a project / bug / feature etc.
+- usage: when changing context or topic inside a project, a new branch is created.
