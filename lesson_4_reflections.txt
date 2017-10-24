@@ -31,3 +31,10 @@ REMOTE STORED LOCALLY?
 
 It enables you to do offline work on a local branch with all of the recent changes
 on the remote available, up to the point where you went offline
+
+4. HOW WOULD YOU COLLABORATE WITHOUT USING GIT OR GITHUB?
+WHAT WOULD BE EASIER, AND WHAT WOULD BE HARDER?
+
+Alternatives: Google docs/Drive/Dropbox
+Easier: UI, no command line needed
+Harder: no fine-grained access to changes, no branching option
