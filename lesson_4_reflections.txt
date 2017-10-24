@@ -25,3 +25,9 @@ Branch:
 - differs from fork and clone in that it includes only a subset of all commits, related
 to one specific part of a project / bug / feature etc.
 - usage: when changing context or topic inside a project, a new branch is created.
+
+3. WHAT IS THE BENEFIT OF HAVING A COPY OF THE LAST KNOWN STATE OF THE
+REMOTE STORED LOCALLY?
+
+It enables you to do offline work on a local branch with all of the recent changes
+on the remote available, up to the point where you went offline
