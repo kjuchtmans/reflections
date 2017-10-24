@@ -38,3 +38,13 @@ WHAT WOULD BE EASIER, AND WHAT WOULD BE HARDER?
 Alternatives: Google docs/Drive/Dropbox
 Easier: UI, no command line needed
 Harder: no fine-grained access to changes, no branching option
+
+5. WHEN WOULD YOU WANT TO MAKE CHANGES IN A SEPARATE BRANCH RATHER THAN
+ON MASTER?
+
+Start a new branch for each change of context in your work project: bug fix, add feature,
+write docs etc.
+Advantage: master is untouched until your branch work is finalized and/or reviewed. Hence,
+production grade master will always work.
+Disadvantage: you need to manually update your local master and pull to remote/GitHub for
+your collaborators to see what you are working on, and give feedback
